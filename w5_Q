@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Computer Log</title>
+    <title>W5 Quiz</title>
 
 
     <!--SETUP-->
@@ -53,9 +53,7 @@
     </div><!--/ #header-->
 
     <div id="nav" class="border">
-            <a href="Characters.html">| Characters |</a>
-            <a href="Locations.html">| Locations |</a>
-            <a href="Worldbuilding.html">| Worldbuilding |</a>
+           
             <br>
             <a href="#footer">| Bottom of Page |</a>
         </div><!--/ #nav-->
