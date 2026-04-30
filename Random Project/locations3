@@ -59,11 +59,12 @@
 
     <div id="wrapper">
         <div id="header" class="border">
-            <h1 id="title" class="fancy" style="text-align: center;">Characters</h1>
+            <h1 id="title" class="fancy" style="text-align: center;">Locations</h1>
     </div><!--/ #header-->
 
     <div id="nav" class="border">
             <a href="index.html">| Homepage |</a>
+            <a href="characters.html">| Characters |</a>
             <a href="locationschapter.html">| Locations |</a>
             <a href="worldbuilding.html">| Worldbuilding |</a>
             <br>
@@ -72,41 +73,41 @@
 
         
     <div id="main-content" class="border">
-        <h2>Content for <b>Characters</b> page</h2>
+        <h2>Content for <b>Locations</b> page</h2>
         
         <div class="row">
 
                 <div class="char">
-                    <img src="images/Omni_Chex.png" alt="Character 1" width="200">
-                    <p>CheckersWhite's Characters</p>
+                    <img src="images/placeholder.jpg" alt="Character 1" width="200">
+                    <p>Unnamed</p>
                 </div>
 
                 <div class="char">
-                    <img src="images/DL_Horse.jpg" alt="Character 2" width="200">
-                    <p>DanndiLion08's Characters</p>
+                    <img src="images/placeholder.jpg" alt="Character 2" width="200">
+                    <p>Unnamed</p>
                 </div>
 
                 <div class="char">
-                    <img src="images/FT_Bow.jpg" alt="Character 3" width="200">
-                    <p>FlexTape17's Characters</p>
+                    <img src="images/placeholder.jpg" alt="Character 3" width="200">
+                    <p>Unnamed</p>
                 </div>
         </div><br><br>
 
         <div class="row">
 
                 <div class="char">
-                    <img src="images/SH555.png" alt="Character 1" width="200">
-                    <p>Sheepo555's Characters</p>
+                    <img src="images/placeholder.jpg" alt="Character 1" width="200">
+                    <p>Unnamed</p>
                 </div>
 
                 <div class="char">
                     <img src="images/placeholder.jpg" alt="Character 2" width="200">
-                    <p>Splishsplash08's Characters</p>
+                    <p>Unnamed</p>
                 </div>
 
                 <div class="char">
-                    <img src="images/Willow.jpg" alt="Character 3" width="200">
-                    <p>Willow's Character</p>
+                    <img src="images/placeholder.jpg" alt="Character 3" width="200">
+                    <p>Unnamed</p>
                 </div>
         </div>
     </div><!--/ #main-content-->

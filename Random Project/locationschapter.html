@@ -11,7 +11,7 @@
         /*write CSS in here*/
 
         /*select elements by TYPE - applies to all tags of that type*/
-        div {
+        .border {
             border:1px solid black;
             padding:10px;
             margin:5px;
@@ -28,15 +28,25 @@
         .border {
             border:2px solid maroon;
         }
-
         #nav {
             border:2px solid black;
         }
-         .pics {
-            width:500px;
-            margin-left:200px;
-            padding:10px;
-            box-shadow:0 0 8px black;/*drop shadow*/
+        .row {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            gap: 75px;
+            border: none;
+        }
+        .char img {
+            display: block;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .char p {
+            margin-top: 6px;
+            margin-bottom: 0;
         }
     </style>
 </head>
@@ -49,21 +59,39 @@
 
     <div id="wrapper">
         <div id="header" class="border">
-            <h1 id="title" class="fancy" style="text-align: center;">Compelete Story Wiki</h1>
+            <h1 id="title" class="fancy" style="text-align: center;">Locations</h1>
     </div><!--/ #header-->
 
     <div id="nav" class="border">
+            <a href="index.html">| Homepage |</a>
             <a href="characters.html">| Characters |</a>
-            <a href="locationschapter.html">| Locations |</a>
-            <a href="Worldbuilding.html">| Worldbuilding |</a>
+            <a href="worldbuilding.html">| Worldbuilding |</a>
             <br>
             <a href="#footer">| Bottom of Page |</a>
         </div><!--/ #nav-->
 
         
     <div id="main-content" class="border">
-        <h2>Content for <b>HOME</b> page</h2>
-            <p style="width:500px">Information here</p>
+        <h2>Content for <b>Locations</b> page</h2>
+        
+        <div class="row">
+
+                <div class="char">
+                    <img src="Images/placeholder.jpg" alt="Character 1" width="200">
+                     <p><a href=locations1.html>Chapter 1 Locations</a></p>
+                </div>
+
+                <div class="char">
+                    <img src="Images/placeholder.jpg" alt="Character 2" width="200">
+                    <p><a href=locations2.html>Chapter 2 Locations</a></p>
+                </div>
+
+                <div class="char">
+                    <img src="Images/placeholder.jpg" alt="Character 3" width="200">
+                     <p><a href=locations3.html>Chapter 3 Locations</a></p>
+                    <br><br><br>
+                </div>
+        </div>
     </div><!--/ #main-content-->
  
     <div id="footer" class="border">
