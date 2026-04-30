@@ -59,12 +59,13 @@
 
     <div id="wrapper">
         <div id="header" class="border">
-            <h1 id="title" class="fancy" style="text-align: center;">Locations</h1>
+            <h1 id="title" class="fancy" style="text-align: center;">Characters</h1>
     </div><!--/ #header-->
 
     <div id="nav" class="border">
             <a href="index.html">| Homepage |</a>
             <a href="characters.html">| Characters |</a>
+            <a href="locationschapter.html">| Locations |</a>
             <a href="worldbuilding.html">| Worldbuilding |</a>
             <br>
             <a href="#footer">| Bottom of Page |</a>
@@ -72,24 +73,41 @@
 
         
     <div id="main-content" class="border">
-        <h2>Content for <b>Locations</b> page</h2>
+        <h2>Content for <b>Characters</b> page</h2>
         
         <div class="row">
 
                 <div class="char">
-                    <img src="Images/placeholder.jpg" alt="Character 1" width="200">
-                     <p><a href="locations1.html">Chapter 1 Locations</a></p>
+                    <img src="images/placeholder.jpg" alt="Character 1" width="200">
+                    <p><a href="ft_char">Inari</a></p>
                 </div>
 
                 <div class="char">
-                    <img src="Images/placeholder.jpg" alt="Character 2" width="200">
-                    <p><a href="locations2.html">Chapter 2 Locations</a></p>
+                    <img src="images/placeholder.jpg" alt="Character 2" width="200">
+                    <p>Elias</p>
                 </div>
 
                 <div class="char">
-                    <img src="Images/placeholder.jpg" alt="Character 3" width="200">
-                     <p><a href="locations3.html">Chapter 3 Locations</a></p>
-                    <br><br><br>
+                    <img src="images/placeholder.jpg" alt="Character 3" width="200">
+                    <p><a href="ft_char">Rio Skovra</a></p>
+                </div>
+        </div><br><br>
+
+        <div class="row">
+
+                <div class="char">
+                    <img src="images/SH555.png" alt="Character 1" width="200">
+                    <p>Sheepo555's Characters</p>
+                </div>
+
+                <div class="char">
+                    <img src="images/placeholder.jpg" alt="Character 2" width="200">
+                    <p></p>
+                </div>
+
+                <div class="char">
+                    <img src="images/Willow.jpg" alt="Character 3" width="200">
+                    <p>Willow's Character</p>
                 </div>
         </div>
     </div><!--/ #main-content-->
