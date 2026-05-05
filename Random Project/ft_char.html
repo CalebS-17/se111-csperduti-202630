@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Log</title>
+
+
+    <!--SETUP-->
+    <style>
+        /*write CSS in here*/
+
+        /*select elements by TYPE - applies to all tags of that type*/
+        .border {
+            border:1px solid black;
+            padding:10px;
+            margin:5px;
+        }
+
+        /*select elements by #ID - applies ONLY to element with that ID*/
+        #wrapper {
+            background-color:grey;
+            width:900px;
+            margin:auto; /*centers element in page; auto equal left + right space*/
+        }
+
+        /*select elements by .CLASS - applies only to elements with that CLASS*/
+        .border {
+            border:2px solid maroon;
+        }
+        #nav {
+            border:2px solid black;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            gap: 75px;
+            border: none;
+        }
+        .char img {
+            display: block;
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        .char p {
+            margin-top: 6px;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+
+<!--STRUCTURE-->
+
+<!--Homepage Title-->
+<body style="background-color:rgb(15, 102, 67)">
+
+    <div id="wrapper">
+        <div id="header" class="border">
+            <h1 id="title" class="fancy" style="text-align: center;">Characters</h1>
+    </div><!--/ #header-->
+
+    <div id="nav" class="border">
+            <a href="index.html">| Homepage |</a>
+            <a href="characters.html">| Characters |</a>
+            <a href="locationschapter.html">| Locations |</a>
+            <a href="worldbuilding.html">| Worldbuilding |</a>
+            <br>
+            <a href="#footer">| Bottom of Page |</a>
+        </div><!--/ #nav-->
+
+        
+    <div id="main-content" class="border">
+        <h2>Content for <b>Characters</b> page</h2>
+        
+        <div class="row">
+
+                <div class="char">
+                    <img src="images/placeholder.jpg" alt="Character 1" width="200">
+                    <p><a href="ft_char">Inari</a></p>
+                </div>
+
+                <div class="char">
+                    <img src="images/placeholder.jpg" alt="Character 2" width="200">
+                    <p>Elias</p>
+                </div>
+
+                <div class="char">
+                    <img src="images/placeholder.jpg" alt="Character 3" width="200">
+                    <p><a href="ft_char">Liora</a></p>
+                </div>
+        </div><br><br>
+
+        <div class="row">
+
+                <div class="char">
+                    <img src="images/placeholder.jpg" alt="Character 1" width="200">
+                    <p>Alevia</p>
+                </div>
+
+                <div class="char">
+                    <img src="images/placeholder.jpg" alt="Character 2" width="200">
+                    <p>Marie</p>
+                </div>
+
+                <div class="char">
+                    <img src="images/placeholder.jpg" alt="Character 3" width="200">
+                    <p>Unnamed</p>
+                </div>
+        </div>
+    </div><!--/ #main-content-->
+ 
+    <div id="footer" class="border">
+        <p>&copy; C Sperduti | SE111.02 </p>
+        <br>
+        <a href="index.html#header">| Top of HOME Page |</a>
+    </div><!--/ #footer-->
+
+    </div><!--/ #wrapper-->
+    
+</body>
+</html>

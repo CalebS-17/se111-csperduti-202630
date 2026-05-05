@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W5 Quiz</title>
 
-    <meta name="author" content="C Sperduti">
-    <meta name="description" content="W3 Demo | Mainframes">
 
-    <title>W3 Bio | Index</title>
-
+    <!--SETUP-->
     <style>
         /*write CSS in here*/
 
@@ -35,52 +32,43 @@
         #nav {
             border:2px solid black;
         }
-
-        .pics {
+         .pics {
             width:500px;
-            margin-left:180px;
+            margin-left:200px;
             padding:10px;
             box-shadow:0 0 8px black;/*drop shadow*/
         }
     </style>
-
 </head>
-<body style="background-color:rgb(192, 191, 191)">
+
+
+<!--STRUCTURE-->
+
+<!--Homepage Title-->
+<body style="background-color:rgb(15, 102, 67)">
 
     <div id="wrapper">
-
         <div id="header" class="border">
+            <h1 id="title" class="fancy" style="text-align: center;">Compelete Story Wiki</h1>
+    </div><!--/ #header-->
 
-            <h1 id="title" class="fancy">Schools</h1>
-
-        </div><!--/ #header-->
-
-        <div id="nav" class="border">
-
-            <a href="index.html">| HOME |</a>
-            <a href="schools.html">| SCHOOLS |</a>
-            <a href="hobbies.html">| HOBBIES |</a>
-    
+    <div id="nav" class="border">
+           
             <br>
-
             <a href="#footer">| Bottom of Page |</a>
-
         </div><!--/ #nav-->
 
-        <div id="main-content" class="border">
-
-            <h2>Content for <b>SCHOOLS</b> page</h2>
-            <img src="images/NEIT.jpg" alt="Image description" width="500" class="pics">
-
-        </div><!--/ #main-content-->
+        
+    <div id="main-content" class="border">
+        <h2>Content for <b>HOME</b> page</h2>
+            <p style="width:500px">Information here</p>
+    </div><!--/ #main-content-->
  
-        <div id="footer" class="border">
-
-            <p>&copy; C Sperduti | SE111.02 </p>
-            <br>
-            <a href="schools.html#header">| Top of HOME Page |</a>
-
-        </div><!--/ #footer-->
+    <div id="footer" class="border">
+        <p>&copy; C Sperduti | SE111.02 </p>
+        <br>
+        <a href="index.html#header">| Top of HOME Page |</a>
+    </div><!--/ #footer-->
 
     </div><!--/ #wrapper-->
     
